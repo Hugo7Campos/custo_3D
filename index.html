@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="pt-BR" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#101512">
+  <meta name="description" content="Descubra o custo real da sua impressão 3D. Simule materiais, energia, taxas e margem de lucro com o Custo3D.">
+  <title>Custo3D — Da impressão ao lucro</title>
+  <link rel="icon" type="image/svg+xml" href="./icon.svg">
+  <link rel="manifest" href="./manifest.webmanifest">
+  <link rel="stylesheet" href="./src/styles.css">
+  <script type="module" src="./src/app.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Pular para o conteúdo</a>
+  <div id="app"></div>
+  <div id="toast" class="toast" role="status" aria-live="polite" hidden></div>
+  <dialog id="confirm-dialog" aria-labelledby="dialog-title">
+    <h2 id="dialog-title">Confirmar alteração</h2>
+    <p id="dialog-message"></p>
+    <div class="actions"><button id="dialog-cancel" class="button secondary">Cancelar</button><button id="dialog-confirm" class="button primary">Confirmar</button></div>
+  </dialog>
+  <noscript>Ative o JavaScript para usar os simuladores do Custo3D.</noscript>
+</body>
+</html>

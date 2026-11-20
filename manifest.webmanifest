@@ -1,0 +1,11 @@
+{
+  "name": "Custo3D — Da impressão ao lucro",
+  "short_name": "Custo3D",
+  "lang": "pt-BR",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#101512",
+  "theme_color": "#101512",
+  "icons": [{ "src": "./icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" }]
+}
